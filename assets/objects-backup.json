@@ -1,0 +1,257 @@
+{
+  "sky": [
+    {
+      "id": "bg-mountains3.png",
+      "atlas":true,
+      "tiling": true,
+      "pivot": {
+        "x": 0,
+        "y": 279
+      },
+
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "size": {
+        "width": "1512",
+        "height": "279"
+      }
+    }
+  ],
+
+  "items": [
+
+    {
+      "id": "assets/origin.png",
+      "atlas": false,
+      "pivot": {
+        "x": 256,
+        "y": 256
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "rotation": 0
+    },
+    {
+      "id": "tilingclouds.png",
+      "tiling": true,
+      "atlas":true,
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1512,
+        "height": 476
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 0,
+        "y": -2400,
+        "z": 1200
+      }
+    },
+
+    {
+      "id": "env-plant2.png",
+      "pivot": {
+        "x": 0,
+        "y": 39
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1500,
+        "y": 300,
+        "z": -300
+      }
+    },
+
+
+    {
+      "id": "env-tree4.png",
+      "pivot": {
+        "x": 0,
+        "y": 39
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1200,
+        "y": 150,
+        "z": -600
+      }
+    },
+
+    {
+      "id": "env-tree5.png",
+      "pivot": {
+        "x": 0,
+        "y": 83
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1200,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "smallcloud-1.png",
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "scale": {
+        "x": 7,
+        "y": 7
+      },
+      "position": {
+        "x": 400,
+        "y": -750,
+        "z": 800
+      }
+    },
+
+    {
+      "id": "env-tree5.png",
+      "pivot": {
+        "x": 0,
+        "y": 83
+      },
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "position": {
+        "x": 200,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+
+    {
+      "id": "env-tree3.png",
+      "pivot": {
+        "x": 0,
+        "y": 115
+      },
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "position": {
+        "x": 600,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "env-box.png",
+      "pivot": {
+        "x": 0,
+        "y": 24
+      },
+      "scale": {
+        "x": 3,
+        "y": 3
+      },
+      "position": {
+        "x": 2250,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "arrow-sign.png",
+      "pivot": {
+        "x": 0,
+        "y": 83
+      },
+      "scale": {
+        "x": 1.6,
+        "y": 1.6
+      },
+      "position": {
+        "x": 300,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "arrow-sign.png",
+      "pivot": {
+        "x": 0,
+        "y": 83
+      },
+      "scale": {
+        "x": 1.6,
+        "y": 1.6
+      },
+      "position": {
+        "x": 300,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "assets/UV_Grid_Sm.jpg",
+      "tiling": true,
+      "size": {
+        "width": 4000,
+        "height": 260
+      },
+
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "floor-4.png",
+      "tiling": true,
+      "size": {
+        "width": 4000,
+        "height": 260
+      },
+
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

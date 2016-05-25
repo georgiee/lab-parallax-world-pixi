@@ -1,0 +1,76 @@
+{"frames": {
+
+"arctichare.png":
+{
+	"frame": {"x":1791,"y":1919,"w":140,"h":124},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":222,"y":68,"w":140,"h":124},
+	"sourceSize": {"w":370,"h":200}
+},
+"ground_hole_fragment-R1.png":
+{
+	"frame": {"x":1791,"y":1791,"w":248,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":762,"y":521,"w":248,"h":126},
+	"sourceSize": {"w":1024,"h":768}
+},
+"homebase_MD_02.png":
+{
+	"frame": {"x":2,"y":2,"w":1920,"h":474},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":366,"w":1920,"h":474},
+	"sourceSize": {"w":1920,"h":840}
+},
+"index_R.png":
+{
+	"frame": {"x":1429,"y":1791,"w":360,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":360,"h":253},
+	"sourceSize": {"w":360,"h":253}
+},
+"inuit_MD_01_v02.png":
+{
+	"frame": {"x":2,"y":943,"w":1920,"h":448},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":242,"w":1920,"h":448},
+	"sourceSize": {"w":1920,"h":690}
+},
+"mack_MD_02.png":
+{
+	"frame": {"x":2,"y":478,"w":1920,"h":463},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":60,"w":1920,"h":463},
+	"sourceSize": {"w":1920,"h":523}
+},
+"northernlights.png":
+{
+	"frame": {"x":2,"y":1393,"w":1425,"h":612},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":354,"y":0,"w":1425,"h":612},
+	"sourceSize": {"w":2393,"h":700}
+},
+"tent.png":
+{
+	"frame": {"x":1429,"y":1393,"w":617,"h":396},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":617,"h":396},
+	"sourceSize": {"w":667,"h":398}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "map5.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2046},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e0f91fc065f0fd958fc4d8cf9deb0419:6/12$"
+}
+}
