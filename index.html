@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Parallax Test Renderer</title>
+    <link rel="stylesheet" type="text/css" href="css/component.css">
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    
+    <style>
+        body, html{
+          height: 100%;
+        }
+        body {
+            margin: 0;
+            background: #111;
+        }
+
+        #gui {
+            position: absolute;
+            top: 200px;
+            right: 0;
+        }
+        #scene-canvas{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery.mousewheel.js"></script>
+    
+
+    <script type="text/javascript" src="js/vendor/dat.gui.js"></script>
+    <script type="text/javascript" src="js/vendor/stats.js"></script>
+    <script type="text/javascript" src="js/vendor/howler.js"></script>
+    <script type="text/javascript" src="js/vendor/TweenMax.js"></script>
+
+    <script type="text/javascript" src="js/vendor/lodash.js"></script>
+    <script type="text/javascript" src="js/vendor/backbone.js"></script>
+    <script type="text/javascript" src="js/vendor/pixi.dev.js"></script>
+    <script type="text/javascript" src="js/vendor/hammer.js"></script>
+    <script type="text/javascript" src="js/vendor/gl-matrix.js"></script>
+
+    
+    <script type="text/javascript" src="js/parallax/namespace.js"></script>
+    <script type="text/javascript" src="js/parallax/world.js"></script>
+    <script type="text/javascript" src="js/parallax/dragdrop-camera.js"></script>
+    <script type="text/javascript" src="js/parallax/wheel-camera.js"></script>
+    <script type="text/javascript" src="js/parallax/scene.js"></script>
+
+</head>
+
+<body>
+    <div id="gui"></div>
+    <canvas id="scene-canvas"></canvas>
+
+    <script type="text/javascript">
+        var modalVideoWindow;
+        
+        // fps counter
+        var stats = null;
+        stats = new Stats();
+        stats.setMode(0);
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.right = '0px';
+        stats.domElement.style.bottom = '0px';
+        document.body.appendChild( stats.domElement );
+
+        var gui = new dat.GUI();
+        var params = {
+          progress: 0,
+          reset: function(){
+            scene.reset();
+          },
+
+          showVideo: function(){
+            modalVideoWindow.open();
+          },
+          viewSpriteSheet: function(){
+            window.open('assets/sprites/nintendo-0.png')
+          },
+          note: 'click & drag',
+          controls: {
+            considerScale: true,
+            automove: true,
+            allowX: true,
+            allowY: false
+          },
+          resetCounter: function(){
+            window.yyy = 1;
+          },
+
+          camera: {
+            x: 0,
+            y: 0,
+            z: 0,
+            offsetPivotX: 0,
+            offsetPivotY: 0,
+            scale: 1.0,
+            dolly: 1.0,
+            zoomZoom: function(){
+              TweenMax.to(params.camera, 0.9, {scale: 1.5, repeat:3, yoyo:true,ease: Elastic.ease});
+              TweenMax.to(params.camera, 0.9, {offsetPivotX: 550/2, repeat:3, yoyo:true,ease: Back.ease});
+            },
+            depthZoom: function(){
+              //TweenMax.to(params.camera, 0.9, {scale: 1.5, repeat:3, yoyo:true,ease: Elastic.ease});
+              TweenMax.to(params.camera, 0.9, {z: 500, repeat:3, yoyo:true,ease: Elastic.ease,
+                onUpdate: function(){
+                  scene.camera.position[2] = params.camera.z;
+              } });
+              TweenMax.to(params.camera, 0.9, {offsetPivotX: 550/2, repeat:3, yoyo:true,ease: Back.ease});
+              //TweenMax.to(params.camera, 0.9, {offsetPivotX: 550/2, repeat:3, yoyo:true,ease: Back.ease});
+            }
+          },
+
+          muted: true
+
+        }
+        
+        gui.add(params, 'note').name('Steuerung:')
+        var f1 = gui.addFolder('Controls');
+        f1.closed = false;
+        var controllerAutoMove = f1.add(params.controls, 'automove').name('Auto Slide');;
+        var controllerConsiderScale = f1.add(params.controls, 'considerScale').name("Adjust Panspeed");
+        var controllerX = f1.add(params.controls, 'allowX').name("Horizontal Move");
+        var controllerY = f1.add(params.controls, 'allowY').name("Vertical Move");;
+
+
+        var f2 = gui.addFolder('Camera');
+        f2.closed = false;
+        
+        var controllerCameraPositionX = f2.add(params.camera, 'x').listen();
+        var controllerCameraPositionY = f2.add(params.camera, 'y').listen();
+        var controllerCameraPositionZ = f2.add(params.camera, 'z').listen();
+        f2.add(params.camera, 'offsetPivotX').name('Pivot Offset X').listen();
+        f2.add(params.camera, 'offsetPivotY').name('Pivot Offset Y').listen();
+        
+        f2.add(params.camera, 'scale', 0.1,2.0, 0.01).listen();
+        f2.add(params.camera, 'zoomZoom').name('Zoom Zoom');
+        f2.add(params.camera, 'depthZoom').name('Depth Zoom');
+        var dollyController = f2.add(params.camera, 'dolly', 0.1,2.0,0.01).name('Dolly Effect');
+        
+        var f3 = gui.addFolder('Other');
+        f3.add(params, 'showVideo');
+        f3.add(params, 'viewSpriteSheet');
+        f3.add(params, 'reset');
+
+        gui.add(params,"resetCounter");
+
+        var controllerMuted = gui.add(params, 'muted').name('Mute Music ?');
+
+        var scene;
+
+        window.onload = function(){
+          scene = new Parallax.Scene04(params);
+          scene.run();
+
+          modalVideoWindow = new ModalWindow();
+          
+          controllerConsiderScale.onChange(function(){
+            scene.cameraControl.considerScale = params.controls.considerScale;
+          });
+
+          controllerCameraPositionX.onChange(function(){
+            scene.camera.position[0] = params.camera.x;
+          })
+
+          dollyController.onChange(function(){
+            console.log('dollyController');
+            //params.camera.scale = params.camera.dolly
+            //params.camera.z = params.camera.dolly * 100;
+            scene.camera.position[2] = params.camera.dolly * 100;
+          })
+
+          controllerCameraPositionY.onChange(function(){
+            scene.camera.position[1] = params.camera.y;
+          })
+
+          controllerCameraPositionZ.onChange(function(){
+            scene.camera.position[2] = params.camera.z;
+          })
+          
+      
+
+          controllerX.onChange(function(){
+            scene.cameraControl.allowX = params.controls.allowX;
+          });
+          
+          controllerY.onChange(function(){
+            scene.cameraControl.allowY = params.controls.allowY;
+          });
+
+          controllerAutoMove.onChange(function(){
+            scene.cameraControl.automove = params.controls.automove;
+          });
+
+          controllerMuted.onChange(function(){
+            scene.validateSound()
+          });
+
+        }
+
+        var ModalWindow = Backbone.View.extend({
+          el: '#modal-1',
+          events: {
+            'click .md-close': 'close'
+          },
+          initialize: function(){
+            $('.md-overlay').click(_.bind(this.close, this));
+          },
+          
+          open: function(){
+            this.$el.toggleClass('md-show', true);
+          },
+
+          close: function(){
+            this.$el.toggleClass('md-show', false);
+          }
+
+        })
+    </script>
+
+  <div class="md-modal md-effect-1" id="modal-1">
+    <div class="md-content">
+      <h3>One Yoshi, One Love</h3>
+      <div>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/MKf3sX9mGq0" frameborder="0" allowfullscreen></iframe>
+        <button class="md-close">Schließen</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="md-overlay"></div>
+  
+  </body>
+  </html>

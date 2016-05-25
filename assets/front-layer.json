@@ -1,0 +1,164 @@
+{
+  "items": [
+    {
+      "name": "homebase_BG_MOUNTAIN_02_v03.png",
+      "sprite": true,
+      "startTime": 0,
+      "endTime": 0.18622174381055,
+      "texture": "homebase_BG_MOUNTAIN_02_v03.png",
+      "pivot": {
+        "x": 332,
+        "y": 103
+      },
+      "position": {
+        "x": 0,
+        "y": 108.333333330242,
+        "z": 700
+      },
+      "scale": {
+        "x": 1.50006024096908,
+        "y": 1.50006024096908
+      },
+      "opacity": {
+        "opacity": 1
+      },
+      "rotation": {
+        "rotation": 0
+      }
+    },
+    {
+      "name": "homebase_BG_MOUNTAIN_01.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "homebase_BG_MOUNTAIN_01.png",
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -54.501
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "name": "basecamp_bookend.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "basecamp_bookend.png",
+      "pivot": {
+        "x": 0,
+        "y": 0
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -80
+      },
+      "scale": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "name": "homebase_BG_MOUNTAIN_01.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "homebase_BG_MOUNTAIN_01.png",
+      "pivot": {
+        "x": -1800,
+        "y": -450
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -280
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "name": "homebase_BG_MOUNTAIN_02_v03.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "homebase_BG_MOUNTAIN_02_v03.png",
+      "pivot": {
+        "x": -1800,
+        "y": -650
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": -80
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "name": "inuit_MD_02.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "inuit_MD_02.png",
+      "pivot": {
+        "x": 0,
+        "y": -200
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    },
+    {
+      "name": "homebase_MD_02.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "homebase_MD_02.png",
+      "pivot": {
+        "x": 0,
+        "y": 100
+      },
+      "position": {
+        "x": -1920,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    },
+
+    {
+      "name": "homebase_MD_01.png",
+      "startTime": 0.68719052744887,
+      "endTime": 1,
+      "texture": "homebase_MD_01.png",
+      "pivot": {
+        "x": 0,
+        "y": 100
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1
+      }
+    }
+  ]
+}

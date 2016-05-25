@@ -1,0 +1,156 @@
+{"frames": {
+
+"baillie_MD_ISLAND_02.png":
+{
+	"frame": {"x":2,"y":1230,"w":1581,"h":815},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1581,"h":815},
+	"sourceSize": {"w":1581,"h":815}
+},
+"baillie_MD_SMOKEMASK_03.png":
+{
+	"frame": {"x":1924,"y":735,"w":114,"h":130},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":130},
+	"sourceSize": {"w":114,"h":130}
+},
+"baillie_MD_iceberg_2.png":
+{
+	"frame": {"x":1729,"y":1712,"w":308,"h":117},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":308,"h":117},
+	"sourceSize": {"w":308,"h":117}
+},
+"body_piece_02.png":
+{
+	"frame": {"x":1924,"y":2,"w":122,"h":507},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":507},
+	"sourceSize": {"w":122,"h":507}
+},
+"body_piece_04.png":
+{
+	"frame": {"x":1585,"y":1712,"w":142,"h":333},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":142,"h":333},
+	"sourceSize": {"w":142,"h":333}
+},
+"body_piece_08.png":
+{
+	"frame": {"x":1943,"y":1919,"w":71,"h":127},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":127},
+	"sourceSize": {"w":71,"h":127}
+},
+"debris_08.png":
+{
+	"frame": {"x":1924,"y":511,"w":122,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":122,"h":134},
+	"sourceSize": {"w":122,"h":134}
+},
+"ground_hole_fragment-R3.png":
+{
+	"frame": {"x":1943,"y":1831,"w":102,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":622,"y":570,"w":102,"h":86},
+	"sourceSize": {"w":1024,"h":768}
+},
+"homebase_MD_01.png":
+{
+	"frame": {"x":2,"y":2,"w":1920,"h":672},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":168,"w":1920,"h":672},
+	"sourceSize": {"w":1920,"h":840}
+},
+"huskyextra.png":
+{
+	"frame": {"x":1585,"y":1230,"w":458,"h":218},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":9,"w":458,"h":218},
+	"sourceSize": {"w":490,"h":240}
+},
+"inuit_MD_02.png":
+{
+	"frame": {"x":2,"y":676,"w":1920,"h":552},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":138,"w":1920,"h":552},
+	"sourceSize": {"w":1920,"h":690}
+},
+"journalentry-firstsightingofmackenzieisland.png":
+{
+	"frame": {"x":1924,"y":964,"w":112,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":112,"h":68},
+	"sourceSize": {"w":120,"h":74}
+},
+"journalentry-leakingship.png":
+{
+	"frame": {"x":1924,"y":964,"w":112,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":2,"w":112,"h":68},
+	"sourceSize": {"w":120,"h":74}
+},
+"polarbears.png":
+{
+	"frame": {"x":1585,"y":1450,"w":453,"h":260},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":219,"w":453,"h":260},
+	"sourceSize": {"w":479,"h":490}
+},
+"redthroatloon.png":
+{
+	"frame": {"x":1924,"y":647,"w":120,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":57,"w":120,"h":86},
+	"sourceSize": {"w":230,"h":230}
+},
+"smoke-b.png":
+{
+	"frame": {"x":1729,"y":1831,"w":212,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":212,"h":213},
+	"sourceSize": {"w":250,"h":229}
+},
+"thickbilledmurre.png":
+{
+	"frame": {"x":1924,"y":1034,"w":98,"h":156},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":11,"w":98,"h":156},
+	"sourceSize": {"w":110,"h":176}
+},
+"thumb_L2.png":
+{
+	"frame": {"x":1924,"y":867,"w":114,"h":95},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":114,"h":95},
+	"sourceSize": {"w":114,"h":103}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "map2.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":2048},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e0f91fc065f0fd958fc4d8cf9deb0419:3/12$"
+}
+}

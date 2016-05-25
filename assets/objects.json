@@ -1,0 +1,288 @@
+{
+  "sky": [
+    {
+      "id": "bg/bg-mountains3.png",
+      "tiling": true,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "size": {
+        "width": "1512",
+        "height": "279"
+      }
+    }
+  ],
+
+  "items": [
+
+    {
+      "id": "patterns/origin.png",
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": 0
+    },
+    {
+      "id": "other/tilingclouds.png",
+      "tiling": true,
+      "size": {
+        "width": 1512,
+        "height": 476
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 0,
+        "y": -2400,
+        "z": 1200
+      }
+    },
+
+    {
+      "id": "vegetation/env-plant2.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1500,
+        "y": 300,
+        "z": -300
+      }
+    },
+
+
+    {
+      "id": "vegetation/env-tree4.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1200,
+        "y": 150,
+        "z": -600
+      }
+    },
+
+    {
+      "id": "vegetation/env-tree5.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 5,
+        "y": 5
+      },
+      "position": {
+        "x": 1200,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+
+    {
+      "id": "other/smallcloud-4.png",
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "position": {
+        "x": 1400,
+        "y": -550,
+        "z": 100
+      }
+    },
+
+
+
+    {
+      "id": "other/obelisk.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 7,
+        "y": 7
+      },
+      "position": {
+        "x": 2100,
+        "y": 0,
+        "z": 100
+      }
+    },
+
+
+    {
+      "id": "other/smallcloud-1.png",
+      "scale": {
+        "x": 7,
+        "y": 7
+      },
+      "position": {
+        "x": 400,
+        "y": -750,
+        "z": 800
+      }
+    },
+
+    {
+      "id": "vegetation/env-tree5.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "position": {
+        "x": 200,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+
+    {
+      "id": "vegetation/env-tree3.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 2,
+        "y": 2
+      },
+      "position": {
+        "x": 600,
+        "y": 0,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "vegetation/env-box.png",
+      "interactive": true,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3
+      },
+      "position": {
+        "x": 2250,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "id": "other/floor-4.png",
+      "tiling": true,
+      "size": {
+        "width": 4000,
+        "height": 48
+      },
+
+      "position": {
+        "x": 0,
+        "y": -5,
+        "z": 0
+      }
+    },
+
+    {
+      "id": "assets/UV_Grid_Sm.jpg",
+      "atlas": true,
+      "alpha" : 0.5,
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 1100
+      }
+    },
+
+
+    {
+      "id": "assets/UV_Grid_Sm.jpg",
+      "atlas": true,
+      "tiling": true,
+      "tileScale": 1,
+      "size": {
+        "width": 4000,
+        "height": 260
+      },
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 1
+      }
+    },
+
+
+    {
+      "id": "other/stone.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3
+      },
+      "position": {
+        "x": 500,
+        "y": 0,
+        "z": 100
+      }
+    },
+
+    {
+      "id": "other/arrow-sign.png",
+      "anchor": {
+        "x": 0,
+        "y": 1
+      },
+      "scale": {
+        "x": 3,
+        "y": 3
+      },
+      "position": {
+        "x": 580,
+        "y": -170,
+        "z": 101
+      }
+    }
+  ]
+}

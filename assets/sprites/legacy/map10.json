@@ -1,0 +1,300 @@
+{"frames": {
+
+"Ground_Cover_2.png":
+{
+	"frame": {"x":144,"y":1856,"w":402,"h":136},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":402,"h":136},
+	"sourceSize": {"w":402,"h":136}
+},
+"HAND_l.png":
+{
+	"frame": {"x":656,"y":813,"w":359,"h":343},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":359,"h":343},
+	"sourceSize": {"w":359,"h":343}
+},
+"Particles_FG_phase_1-156.png":
+{
+	"frame": {"x":406,"y":1409,"w":394,"h":396},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":9,"w":394,"h":396},
+	"sourceSize": {"w":420,"h":434}
+},
+"Particles_FG_phase_1-157.png":
+{
+	"frame": {"x":406,"y":1409,"w":394,"h":396},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":9,"w":394,"h":396},
+	"sourceSize": {"w":420,"h":434}
+},
+"Shadow-ArmR(00062).png":
+{
+	"frame": {"x":1457,"y":1602,"w":220,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":772,"y":555,"w":220,"h":110},
+	"sourceSize": {"w":1024,"h":768}
+},
+"alaska_FG_ICE_03.png":
+{
+	"frame": {"x":1082,"y":1367,"w":191,"h":349},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":191,"h":349},
+	"sourceSize": {"w":191,"h":349}
+},
+"alaska_FG_ICE_04.png":
+{
+	"frame": {"x":929,"y":1718,"w":205,"h":289},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":0,"w":205,"h":289},
+	"sourceSize": {"w":291,"h":289}
+},
+"arm_r_02.png":
+{
+	"frame": {"x":1469,"y":1141,"w":183,"h":182},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":183,"h":182},
+	"sourceSize": {"w":183,"h":182}
+},
+"baillie_BG_MOUNTAIN_02_v02.png":
+{
+	"frame": {"x":1020,"y":604,"w":709,"h":272},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":8,"w":709,"h":272},
+	"sourceSize": {"w":709,"h":280}
+},
+"baillie_FG_ROCK_01.png":
+{
+	"frame": {"x":548,"y":1807,"w":379,"h":198},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":379,"h":198},
+	"sourceSize": {"w":379,"h":198}
+},
+"baillie_FG_ROCK_02.png":
+{
+	"frame": {"x":2,"y":955,"w":646,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":646,"h":163},
+	"sourceSize": {"w":646,"h":163}
+},
+"baillie_MD_ICEBERG_2_walrus.png":
+{
+	"frame": {"x":2,"y":1120,"w":620,"h":287},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":172,"w":620,"h":287},
+	"sourceSize": {"w":620,"h":459}
+},
+"baillie_MD_ROCKCLIFF.png":
+{
+	"frame": {"x":1148,"y":1141,"w":319,"h":195},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":319,"h":195},
+	"sourceSize": {"w":319,"h":195}
+},
+"baillie_MD_iceberg_1.png":
+{
+	"frame": {"x":753,"y":1158,"w":393,"h":207},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":393,"h":207},
+	"sourceSize": {"w":393,"h":207}
+},
+"baillie_alaska2.png":
+{
+	"frame": {"x":2,"y":1409,"w":402,"h":445},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":402,"h":445},
+	"sourceSize": {"w":402,"h":445}
+},
+"body_piece_06.png":
+{
+	"frame": {"x":1275,"y":1338,"w":180,"h":343},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":343},
+	"sourceSize": {"w":180,"h":343}
+},
+"debris_01.png":
+{
+	"frame": {"x":2,"y":1856,"w":140,"h":154},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":154},
+	"sourceSize": {"w":140,"h":154}
+},
+"finger_R.png":
+{
+	"frame": {"x":1732,"y":351,"w":263,"h":273},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":263,"h":273},
+	"sourceSize": {"w":263,"h":273}
+},
+"giant_hole-L4.png":
+{
+	"frame": {"x":1136,"y":1718,"w":486,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":257,"y":883,"w":486,"h":252},
+	"sourceSize": {"w":1984,"h":1232}
+},
+"giantsstinkysock.png":
+{
+	"frame": {"x":1624,"y":1783,"w":228,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":211,"w":228,"h":168},
+	"sourceSize": {"w":240,"h":400}
+},
+"homebase_BG_MOUNTAIN_02_v03.png":
+{
+	"frame": {"x":2,"y":813,"w":652,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":66,"w":652,"h":140},
+	"sourceSize": {"w":664,"h":206}
+},
+"homebase_FG_ROCK_02.png":
+{
+	"frame": {"x":1457,"y":1467,"w":537,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":537,"h":133},
+	"sourceSize": {"w":541,"h":133}
+},
+"igloo.png":
+{
+	"frame": {"x":1043,"y":2,"w":907,"h":347},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":907,"h":347},
+	"sourceSize": {"w":907,"h":347}
+},
+"inuit_FG_B01.png":
+{
+	"frame": {"x":802,"y":1367,"w":278,"h":349},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":278,"h":349},
+	"sourceSize": {"w":282,"h":349}
+},
+"inuit_FG_C01.png":
+{
+	"frame": {"x":1457,"y":1338,"w":544,"h":127},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":544,"h":127},
+	"sourceSize": {"w":548,"h":127}
+},
+"inuit_MD_01_v02_mtn1.png":
+{
+	"frame": {"x":1553,"y":906,"w":380,"h":196},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":380,"h":196},
+	"sourceSize": {"w":380,"h":196}
+},
+"inuit_MD_FISHINGMASK.png":
+{
+	"frame": {"x":1679,"y":1602,"w":292,"h":179},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":292,"h":179},
+	"sourceSize": {"w":292,"h":179}
+},
+"mack2.png":
+{
+	"frame": {"x":1017,"y":878,"w":534,"h":261},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":534,"h":261},
+	"sourceSize": {"w":534,"h":261}
+},
+"mack_BG_MOUNTAINS_v03_001.png":
+{
+	"frame": {"x":2,"y":2,"w":1039,"h":205},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1039,"h":205},
+	"sourceSize": {"w":1039,"h":205}
+},
+"mack_BG_MOUNTAINS_v04_001.png":
+{
+	"frame": {"x":2,"y":209,"w":1016,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1016,"h":203},
+	"sourceSize": {"w":1016,"h":203}
+},
+"mack_BG_MOUNTAINS_v04_002.png":
+{
+	"frame": {"x":2,"y":414,"w":1016,"h":203},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1016,"h":203},
+	"sourceSize": {"w":1016,"h":203}
+},
+"mack_BG_MOUNTAINS_v04_003.png":
+{
+	"frame": {"x":2,"y":619,"w":1015,"h":192},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1015,"h":192},
+	"sourceSize": {"w":1015,"h":192}
+},
+"mtn_1.png":
+{
+	"frame": {"x":1020,"y":351,"w":710,"h":251},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":710,"h":251},
+	"sourceSize": {"w":710,"h":251}
+},
+"northernlightswitch-off.png":
+{
+	"frame": {"x":624,"y":1158,"w":127,"h":234},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":8,"w":127,"h":234},
+	"sourceSize": {"w":143,"h":274}
+},
+"overlay_tuniitmask.png":
+{
+	"frame": {"x":1654,"y":1104,"w":274,"h":121},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":274,"h":121},
+	"sourceSize": {"w":274,"h":121}
+},
+"snowyowl.png":
+{
+	"frame": {"x":1731,"y":626,"w":230,"h":278},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":58,"y":13,"w":230,"h":278},
+	"sourceSize": {"w":310,"h":300}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "map10.png",
+	"format": "RGBA8888",
+	"size": {"w":2005,"h":2012},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e0f91fc065f0fd958fc4d8cf9deb0419:11/12$"
+}
+}
